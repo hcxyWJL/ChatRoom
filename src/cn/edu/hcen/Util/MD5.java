@@ -22,8 +22,8 @@ public class MD5 {
     }
 
     public static void main(String[] args) throws UnsupportedEncodingException, NoSuchAlgorithmException {
-        //System.out.println(encoderByMd5("ylx1234"));
-        System.out.println(checkpassword("lw1234", "2gHrMKwT2XGgiVFAANMQig=="));
+        System.out.println(encoderByMd5("ylx1234"));
+        //System.out.println(checkpassword("lw1234", "2gHrMKwT2XGgiVFAANMQig=="));
     }
     /**判断用户密码是否正确
      * @param newpasswd  用户输入的密码
